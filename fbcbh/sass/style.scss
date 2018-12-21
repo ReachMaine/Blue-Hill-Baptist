@@ -1,0 +1,24 @@
+/*
+Theme Name: fbcbh
+Theme URI: http://flatsome.uxthemes.com/
+Description: This is a child theme for First Baptist Church Blue Hill
+Author: Tim Suellentrop
+Author URI: http: //www.reachmaine.com/
+Template: flatsome
+Version: 1.9
+*/
+ 
+@import url("../flatsome/css/foundation.css");
+@import "partials/settings";
+@import "partials/functions"; 
+ 
+/* =Theme customization starts here */
+.from_the_blog_comments { // hide comments on blog shortcode 
+	display: none;
+	visibility: hidden;
+}
+aside.widget.widget_recent_entries { // give recent entries some breathing room
+	li {
+		padding-bottom: 15px;
+	}
+}
