@@ -7,13 +7,23 @@ Author URI: http: //www.reachmaine.com/
 Template: flatsome
 Version: 1.9
 */
- 
+
 @import url("../flatsome/css/foundation.css");
 @import "partials/settings";
-@import "partials/functions"; 
- 
+@import "partials/functions";
+
 /* =Theme customization starts here */
-.from_the_blog_comments { // hide comments on blog shortcode 
+#top-bar {
+  .left-text {
+    font-size: 18px;
+  }
+}
+
+ul.header-nav li .nav-dropdown a {
+  color: #1d1d1d;
+}
+
+.from_the_blog_comments { // hide comments on blog shortcode
 	display: none;
 	visibility: hidden;
 }
