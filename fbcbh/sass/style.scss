@@ -18,6 +18,11 @@ Version: 1.9
     font-size: 18px;
   }
 }
+.home {
+  .banner-bg {
+    background-size: contain;
+  }
+}
 
 ul.header-nav li .nav-dropdown a {
   color: #1d1d1d;
@@ -31,4 +36,14 @@ aside.widget.widget_recent_entries { // give recent entries some breathing room
 	li {
 		padding-bottom: 15px;
 	}
+}
+
+.footer.footer-1.dark {
+  .textwidget {
+    p {
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+  }
 }
